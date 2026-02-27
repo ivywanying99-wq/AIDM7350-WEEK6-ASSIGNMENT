@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Wanderlust | My Travel Website</title>
+    <title>AIDM7350 | My Travel Website</title>
     <style>
-        /* 全局样式 */
+        /* Global style */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -20,7 +20,7 @@
             margin-bottom: 10px;
         }
 
-        /* 1. 导航栏 (利用无序列表 ul 实现) */
+        /* 1. Navigation list */
         ul.nav-menu {
             list-style-type: none; 
             padding: 15px;
@@ -55,7 +55,7 @@
             margin-top: 40px;
         }
 
-        /* 顶部大图 */
+        /* Top picture */
         img.hero-image {
             width: 100%;
             height: 400px;
@@ -64,7 +64,7 @@
             margin-top: 20px;
         }
 
-        /* 2. 目的地卡片排版 */
+        /* 2. Destination card payout */
         ul.destination-list {
             list-style-type: none;
             padding: 0;
@@ -98,7 +98,7 @@
             margin-bottom: 5px;
         }
 
-        /* 视频容器样式 */
+        /* Video container style */
         iframe.vlog-video {
             width: 100%;
             max-width: 800px;
@@ -109,43 +109,38 @@
             margin: 0 auto; 
         }
 
-        /* =========================================
-           新增：3. 清单列表 (Checklist) 的精美样式
-           ========================================= */
         ol.checklist {
             padding-left: 20px;
         }
 
-        /* 设置每一个清单项的布局和悬停特效 */
+        /* Set the hover style */
         li.check-item {
             background-color: #ffffff;
             margin-bottom: 15px;
             padding: 10px 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            display: flex; /* 让数字、图片、文字在一行内垂直居中对齐 */
+            display: flex; 
             align-items: center; 
             transition: transform 0.2s ease, background-color 0.2s ease;
             font-size: 1.1em;
         }
 
-        /* 清单项的 Hover 特效：整行轻微右移并改变背景色 */
         li.check-item:hover {
             transform: translateX(10px); 
-            background-color: #fdf2f0; /* 淡淡的红色背景呼应主题 */
+            background-color: #fdf2f0; 
         }
 
-        /* 清单里的小圆形图片样式 */
+        
         img.checklist-icon {
             width: 50px;
             height: 50px;
             object-fit: cover;
-            border-radius: 50%; /* 把正方形图片变成正圆形 */
-            margin: 0 15px; /* 图片左右留出间距 */
+            border-radius: 50%; 
+            margin: 0 15px;
             border: 2px solid #e74c3c;
         }
 
-        /* 清单里的链接样式 */
         li.check-item a {
             color: #2980b9;
             text-decoration: none;
@@ -160,7 +155,7 @@
 </head>
 <body>
 
-    <h1 class="site-title">✈️ Wanderlust Chronicles</h1>
+    <h1 class="site-title">✈️ Traveler Chronicles</h1>
 
     <ul class="nav-menu">
         <li><a href="#home">Home</a></li>
@@ -219,4 +214,5 @@
     </ol>
 
 </body>
+
 </html>
